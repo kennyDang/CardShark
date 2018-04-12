@@ -10,6 +10,14 @@
 		46198D9F207F0235009AEE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198D9E207F0235009AEE9B /* AppDelegate.swift */; };
 		46198DA6207F0238009AEE9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46198DA5207F0238009AEE9B /* Assets.xcassets */; };
 		46198DA9207F0238009AEE9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46198DA7207F0238009AEE9B /* LaunchScreen.storyboard */; };
+		46198DB6207F15E1009AEE9B /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DB5207F15E1009AEE9B /* Card.swift */; };
+		46198DB8207F17D3009AEE9B /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DB7207F17D3009AEE9B /* Deck.swift */; };
+		46198DBA207F1A41009AEE9B /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DB9207F1A41009AEE9B /* Result.swift */; };
+		46198DBC207F1AB4009AEE9B /* Gettable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DBB207F1AB4009AEE9B /* Gettable.swift */; };
+		46198DBE207F1B03009AEE9B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DBD207F1B03009AEE9B /* Service.swift */; };
+		46198DC0207F1E69009AEE9B /* DeckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DBF207F1E69009AEE9B /* DeckService.swift */; };
+		46198DC2207F2407009AEE9B /* DeckServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DC1207F2407009AEE9B /* DeckServerResponse.swift */; };
+		46198DC6207F290D009AEE9B /* GetDeckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DC5207F290D009AEE9B /* GetDeckService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +26,14 @@
 		46198DA5207F0238009AEE9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46198DA8207F0238009AEE9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46198DAA207F0238009AEE9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46198DB5207F15E1009AEE9B /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		46198DB7207F17D3009AEE9B /* Deck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
+		46198DB9207F1A41009AEE9B /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		46198DBB207F1AB4009AEE9B /* Gettable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gettable.swift; sourceTree = "<group>"; };
+		46198DBD207F1B03009AEE9B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		46198DBF207F1E69009AEE9B /* DeckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckService.swift; sourceTree = "<group>"; };
+		46198DC1207F2407009AEE9B /* DeckServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckServerResponse.swift; sourceTree = "<group>"; };
+		46198DC5207F290D009AEE9B /* GetDeckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDeckService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,11 +66,11 @@
 		46198D9D207F0235009AEE9B /* CardSharkiOS */ = {
 			isa = PBXGroup;
 			children = (
+				46198D9E207F0235009AEE9B /* AppDelegate.swift */,
 				46198DB4207F0268009AEE9B /* Networking */,
 				46198DB3207F0261009AEE9B /* Views */,
 				46198DB2207F025D009AEE9B /* Models */,
 				46198DB1207F0256009AEE9B /* ViewControllers */,
-				46198D9E207F0235009AEE9B /* AppDelegate.swift */,
 				46198DB0207F0250009AEE9B /* Resources */,
 			);
 			path = CardSharkiOS;
@@ -80,6 +96,9 @@
 		46198DB2207F025D009AEE9B /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				46198DB5207F15E1009AEE9B /* Card.swift */,
+				46198DB7207F17D3009AEE9B /* Deck.swift */,
+				46198DC1207F2407009AEE9B /* DeckServerResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -94,6 +113,11 @@
 		46198DB4207F0268009AEE9B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				46198DB9207F1A41009AEE9B /* Result.swift */,
+				46198DBB207F1AB4009AEE9B /* Gettable.swift */,
+				46198DBD207F1B03009AEE9B /* Service.swift */,
+				46198DBF207F1E69009AEE9B /* DeckService.swift */,
+				46198DC5207F290D009AEE9B /* GetDeckService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -167,7 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46198DB8207F17D3009AEE9B /* Deck.swift in Sources */,
+				46198DC2207F2407009AEE9B /* DeckServerResponse.swift in Sources */,
+				46198DC0207F1E69009AEE9B /* DeckService.swift in Sources */,
+				46198DC6207F290D009AEE9B /* GetDeckService.swift in Sources */,
 				46198D9F207F0235009AEE9B /* AppDelegate.swift in Sources */,
+				46198DBA207F1A41009AEE9B /* Result.swift in Sources */,
+				46198DBC207F1AB4009AEE9B /* Gettable.swift in Sources */,
+				46198DB6207F15E1009AEE9B /* Card.swift in Sources */,
+				46198DBE207F1B03009AEE9B /* Service.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
