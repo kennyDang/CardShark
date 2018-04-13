@@ -18,6 +18,17 @@
 		46198DC0207F1E69009AEE9B /* DeckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DBF207F1E69009AEE9B /* DeckService.swift */; };
 		46198DC2207F2407009AEE9B /* DeckServerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DC1207F2407009AEE9B /* DeckServerResponse.swift */; };
 		46198DC6207F290D009AEE9B /* GetDeckService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DC5207F290D009AEE9B /* GetDeckService.swift */; };
+		46198DC8207FCD77009AEE9B /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DC7207FCD77009AEE9B /* InitialViewController.swift */; };
+		46198DCB207FCDB0009AEE9B /* UIColor+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DCA207FCDB0009AEE9B /* UIColor+Custom.swift */; };
+		46198DCD207FCE47009AEE9B /* LoadingSpinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DCC207FCE47009AEE9B /* LoadingSpinnerViewController.swift */; };
+		46198DD0207FD020009AEE9B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DCF207FD020009AEE9B /* Constants.swift */; };
+		46198DD2207FD1B4009AEE9B /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DD1207FD1B4009AEE9B /* UIView+Constraints.swift */; };
+		46198DD4207FEECB009AEE9B /* CardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DD3207FEECB009AEE9B /* CardsViewController.swift */; };
+		46198DD6207FF09C009AEE9B /* UICollectionViewCell+Reuseable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DD5207FF09C009AEE9B /* UICollectionViewCell+Reuseable.swift */; };
+		46198DD8207FF113009AEE9B /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DD7207FF113009AEE9B /* CardCollectionViewCell.swift */; };
+		46198DDD207FF5F2009AEE9B /* UIViewController+ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46198DDC207FF5F2009AEE9B /* UIViewController+ChildViewController.swift */; };
+		46221FED20802C15009A2697 /* SuperUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46221FEC20802C15009A2697 /* SuperUtility.swift */; };
+		46E97134208025D600E9AB03 /* UIImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E97133208025D600E9AB03 /* UIImageView+Cache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +45,17 @@
 		46198DBF207F1E69009AEE9B /* DeckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckService.swift; sourceTree = "<group>"; };
 		46198DC1207F2407009AEE9B /* DeckServerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckServerResponse.swift; sourceTree = "<group>"; };
 		46198DC5207F290D009AEE9B /* GetDeckService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDeckService.swift; sourceTree = "<group>"; };
+		46198DC7207FCD77009AEE9B /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
+		46198DCA207FCDB0009AEE9B /* UIColor+Custom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Custom.swift"; sourceTree = "<group>"; };
+		46198DCC207FCE47009AEE9B /* LoadingSpinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingSpinnerViewController.swift; sourceTree = "<group>"; };
+		46198DCF207FD020009AEE9B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		46198DD1207FD1B4009AEE9B /* UIView+Constraints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
+		46198DD3207FEECB009AEE9B /* CardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsViewController.swift; sourceTree = "<group>"; };
+		46198DD5207FF09C009AEE9B /* UICollectionViewCell+Reuseable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Reuseable.swift"; sourceTree = "<group>"; };
+		46198DD7207FF113009AEE9B /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
+		46198DDC207FF5F2009AEE9B /* UIViewController+ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+ChildViewController.swift"; sourceTree = "<group>"; };
+		46221FEC20802C15009A2697 /* SuperUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperUtility.swift; sourceTree = "<group>"; };
+		46E97133208025D600E9AB03 /* UIImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Cache.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				46198D9E207F0235009AEE9B /* AppDelegate.swift */,
+				46221FEB20802BEC009A2697 /* Super Utility Formulas */,
+				46198DCE207FD013009AEE9B /* Constants */,
+				46198DC9207FCD83009AEE9B /* Extensions */,
 				46198DB4207F0268009AEE9B /* Networking */,
 				46198DB3207F0261009AEE9B /* Views */,
 				46198DB2207F025D009AEE9B /* Models */,
@@ -89,6 +114,9 @@
 		46198DB1207F0256009AEE9B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				46198DC7207FCD77009AEE9B /* InitialViewController.swift */,
+				46198DCC207FCE47009AEE9B /* LoadingSpinnerViewController.swift */,
+				46198DD3207FEECB009AEE9B /* CardsViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -106,6 +134,7 @@
 		46198DB3207F0261009AEE9B /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				46198DD7207FF113009AEE9B /* CardCollectionViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -113,13 +142,49 @@
 		46198DB4207F0268009AEE9B /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				46198DDE20800035009AEE9B /* Services */,
 				46198DB9207F1A41009AEE9B /* Result.swift */,
 				46198DBB207F1AB4009AEE9B /* Gettable.swift */,
 				46198DBD207F1B03009AEE9B /* Service.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		46198DC9207FCD83009AEE9B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46198DCA207FCDB0009AEE9B /* UIColor+Custom.swift */,
+				46198DD1207FD1B4009AEE9B /* UIView+Constraints.swift */,
+				46198DD5207FF09C009AEE9B /* UICollectionViewCell+Reuseable.swift */,
+				46198DDC207FF5F2009AEE9B /* UIViewController+ChildViewController.swift */,
+				46E97133208025D600E9AB03 /* UIImageView+Cache.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		46198DCE207FD013009AEE9B /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				46198DCF207FD020009AEE9B /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		46198DDE20800035009AEE9B /* Services */ = {
+			isa = PBXGroup;
+			children = (
 				46198DBF207F1E69009AEE9B /* DeckService.swift */,
 				46198DC5207F290D009AEE9B /* GetDeckService.swift */,
 			);
-			path = Networking;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		46221FEB20802BEC009A2697 /* Super Utility Formulas */ = {
+			isa = PBXGroup;
+			children = (
+				46221FEC20802C15009A2697 /* SuperUtility.swift */,
+			);
+			path = "Super Utility Formulas";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,12 +257,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				46198DB8207F17D3009AEE9B /* Deck.swift in Sources */,
+				46221FED20802C15009A2697 /* SuperUtility.swift in Sources */,
 				46198DC2207F2407009AEE9B /* DeckServerResponse.swift in Sources */,
+				46198DD4207FEECB009AEE9B /* CardsViewController.swift in Sources */,
 				46198DC0207F1E69009AEE9B /* DeckService.swift in Sources */,
+				46198DD2207FD1B4009AEE9B /* UIView+Constraints.swift in Sources */,
+				46198DCB207FCDB0009AEE9B /* UIColor+Custom.swift in Sources */,
 				46198DC6207F290D009AEE9B /* GetDeckService.swift in Sources */,
+				46198DCD207FCE47009AEE9B /* LoadingSpinnerViewController.swift in Sources */,
+				46198DD8207FF113009AEE9B /* CardCollectionViewCell.swift in Sources */,
 				46198D9F207F0235009AEE9B /* AppDelegate.swift in Sources */,
+				46198DD0207FD020009AEE9B /* Constants.swift in Sources */,
+				46198DC8207FCD77009AEE9B /* InitialViewController.swift in Sources */,
+				46198DDD207FF5F2009AEE9B /* UIViewController+ChildViewController.swift in Sources */,
+				46E97134208025D600E9AB03 /* UIImageView+Cache.swift in Sources */,
 				46198DBA207F1A41009AEE9B /* Result.swift in Sources */,
 				46198DBC207F1AB4009AEE9B /* Gettable.swift in Sources */,
+				46198DD6207FF09C009AEE9B /* UICollectionViewCell+Reuseable.swift in Sources */,
 				46198DB6207F15E1009AEE9B /* Card.swift in Sources */,
 				46198DBE207F1B03009AEE9B /* Service.swift in Sources */,
 			);
